@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="calculadora.png">
+    <title>Simplest Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Simplest Calculator</h1>
+    </header>
+    <main>
+        <div class="values">
+            <div class="value-a">
+                <label for="value-a">Introduce value:  </label>
+                <input type="text" id="input1" placeholder="Input a number">
+            </div>
+            <div class="value-b">
+                <label for="value-a">Introduce value:  </label>
+                <input type="text" id="input2" placeholder="Input a number">
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button onclick="plus()" class="plus-button">Add</button>
+            <button onclick="minus()" class="minus-button">Subtract</button>
+            <button onclick="times()" class="times-button">Multiply</button>
+            <button onclick="divide()" class="divide-button">Divide</button><br>
+        </div>
+        <div class="special-buttons">
+            <button onclick="resetInput()" class="reset-input">Clear fields</button>
+            <button onclick="reset()" class="reset-button">Reset</button>
+        </div>
+        <div class="answer-field">
+            <label for="answer-field">Result:  </label>
+            <label for="answer-field" id="result"></label>
+        </div>
+    </main>
+    <footer>
+        <p>Coded by Adrián López</p>
+    </footer>
+    <script src="calculadora.js"></script>
+</body>
+</html>

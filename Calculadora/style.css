@@ -1,0 +1,155 @@
+* {
+    font-family: Verdana;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr;
+}
+
+.values {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.value-a {
+    margin-right: 15px;
+}
+.value-b {
+    margin-left: 15px;
+}
+
+#input1 {
+    border-radius: 5px;
+    border-color: none;
+    background-color: white;
+}
+
+#input2 {
+    border-radius: 5px;
+    border-color: none;
+    background-color: white;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 20px;
+}
+
+.special-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.answer-field {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.plus-button {
+    margin: 10px;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.plus-button:hover {
+    background: #ddd;
+}
+
+.minus-button {
+    margin: 10px;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.minus-button:hover {
+    background: #ddd;
+}
+
+.times-button {
+    margin: 10px;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.times-button:hover {
+    background: #ddd;
+}
+
+.divide-button {
+    margin: 10px;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.divide-button:hover {
+    background: #ddd;
+}
+
+.reset-button {
+    margin: 10px;
+    border-radius: 7px;
+    background-color: #f44336;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.reset-button:hover {
+    background: #da190b;
+}
+
+.reset-input {
+    margin: 10px;
+    border-radius: 7px;
+    background-color: #f44336;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.reset-input:hover {
+    background: #da190b;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 20px;
+}
